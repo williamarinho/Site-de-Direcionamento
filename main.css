@@ -1,0 +1,99 @@
+body{
+    background-color: #212121;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex;
+    align-items: center;
+    background-color: black;
+}
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    margin-right: auto;
+}
+.menu li{
+    display: inline-block;
+    align-items: center;
+    padding: 20px 20px;
+}
+.receita{
+    max-width: min-content;
+    max-height: min-content;
+    border-radius: 10px;
+    background-color: #424242;
+}
+.imagem{
+    width: 500px;
+    height: 400px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.texto1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+.texto2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: silver;
+}
+.receita2{
+    max-width: min-content;
+    max-height: min-content;
+    border-radius: 10px;
+    background-color: #424242;
+}
+.imagem2{
+    width: 520px;
+    height: 420px;
+    border-radius: 15px;
+    padding: 20px;
+}
+.texto3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    text-align: center;
+    color: white;
+}
+.texto4{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: silver;
+}
+.divGeral{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%;
+}
+
+li:hover {
+    border: none;
+    border-radius: 10px;
+    background-color: silver;
+    color: black;
+    transition: all 1s ease-in-out;
+}
+.receita:hover{
+    background-color: BLACK;
+    transition: all 1S ease-in-out;
+}
+.receita2:hover{
+    background-color: BLACK;
+    transition: all 1s ease-in-out;
+}
